@@ -161,7 +161,6 @@ int main()
     ifstream inFile("huffmanTree.txt");
     HuffmanNode* readTree = readHuffmanTree(inFile);
     inFile.close();
-    // 测试编码和解码
     string message;
     cout << "\n请输入要编码的消息：";
     cin >> message;
